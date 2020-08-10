@@ -63,16 +63,16 @@ Como o cypress abre uma janela, não é possível usar a partir de terminal Ubun
 
 2. Após a definição do schema, é possível definir outras configurações
 
+- **baseUrl**: define o caminho base das páginas a serem testadas
+- **experimentalSourceRewriting**: definindo como `true` permite que páginas com código mais antigo possa ser testado
+<!-- - watchForFileChanges -->
+
 ```js
 "baseUrl": "http://demo.automationtesting.in",
 "experimentalSourceRewriting": true
 ```
 
 <!-- "watchForFileChanges": ? , -->
-
-- **baseUrl**: define o caminho base das páginas a serem testadas
-- **experimentalSourceRewriting**: definindo como `true` permite que páginas com código mais antigo possa ser testado
-<!-- - watchForFileChanges -->
 
 ### Configurando support/index.js
 

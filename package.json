@@ -1,0 +1,11 @@
+{
+  "name": "semana-agilizei-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/anamauad/semana-agilizei-cypress.git",
+  "author": "anamauad <ana.mauad@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "4.10.0"
+  }
+}
